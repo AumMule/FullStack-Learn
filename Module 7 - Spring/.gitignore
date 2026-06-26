@@ -1,0 +1,17 @@
+# Spring module-specific gitignore
+
+# Maven/Gradle build outputs
+target/
+build/
+*.class
+
+# IDE metadata
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# OS/System files
+.DS_Store
+Thumbs.db
