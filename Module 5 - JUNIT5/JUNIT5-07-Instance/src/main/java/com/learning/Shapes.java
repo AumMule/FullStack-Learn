@@ -1,6 +1,5 @@
 package com.learning;
 
-import java.util.Arrays;
 
 public class Shapes {
 public double ComputeSquareArea(double length) {

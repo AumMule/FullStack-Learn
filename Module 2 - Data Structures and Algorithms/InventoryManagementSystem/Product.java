@@ -11,6 +11,10 @@ public class Product {
         this.price = price;
     }
 
+    public Product(String string, String string2, String string3) {
+        //TODO Auto-generated constructor stub
+    }
+
     // Getters and Setters
     public String getProductId() { return productId; }
     public void setProductId(String productId) { this.productId = productId; }

@@ -1,8 +1,8 @@
 package com.Shapes;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.assertEquals;
 
+import org.junit.Test;
 
 class ShapesTest {
 
@@ -22,7 +22,7 @@ void testComputeCircleArea() {
 		
 		
 		
-		assertEquals(78.5,obj.ComputeCircleArea(5),"Area of circle calculation may be wrong");
+		assertEquals("Area of circle calculation may be wrong",78.5,obj.ComputeCircleArea(5));
 	}
 
 }
